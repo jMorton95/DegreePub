@@ -1,0 +1,11 @@
+Define an input function that takes a string to prompt a user (for reusability).
+    Prompt the user to input a number infinitely until an integer input is provided.
+    Return the valid integer.
+
+Define a sum function that takes two integer parameters 
+    Return the sum of the parameters.
+
+Initialise two variables as the return value of our input function.
+Initialise a third variable as the result of passing the prior two as parameters to our sum function
+
+Print out our third, summed variable.

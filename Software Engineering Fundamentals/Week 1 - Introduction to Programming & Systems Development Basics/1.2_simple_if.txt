@@ -1,0 +1,15 @@
+Define an input function that takes a string to prompt a user (for reusability).
+    Prompt the user to input a number infinitely until an integer input is provided.
+    Return the valid integer.
+
+Define a function that takes in three number args, adds arg2 to arg1 if arg2 is greater than arg3. Return the sum & outcome.
+    The first two are our number inputs.
+    The third is our threshold number for addition (5)
+    Return a tuple, 2 items in length, the first being the value and the second being a true/false
+
+
+Initialise two variables as the return value of our input function.
+
+Initialise two variables to destructure the return value of our conditional function, to the the value and whether or not the condition was met.
+
+Output the results

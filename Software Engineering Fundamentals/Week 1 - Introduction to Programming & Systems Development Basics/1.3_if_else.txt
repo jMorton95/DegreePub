@@ -1,0 +1,19 @@
+Define an input function that takes a string to prompt a user with a custom message (for reusability).
+    Prompt the user to input a number infinitely until an integer input is provided.
+    Return the valid integer.
+
+Define an input function that takes in an input, checks it against two locally defined options, continually prompt until correct input
+    Prompt the user to input a + or * operator infinitely.
+    Return the valid operator
+
+Define a calculation function that takes in our two number inputs and our operator input
+    Execute the calculation of args.
+    Return the calculated value
+
+Initialise two variables as the return value of the first function.
+
+Initialise a variable as the return value of the from the second function.
+
+Initialise a variable as the return value of the third calculation function, using the prior 3 variables as arguments.
+
+Print the result.
