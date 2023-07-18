@@ -1,4 +1,4 @@
-#Referencing as Static. Defined this as a Class to use Dot notation from JS
+#Referencing as Static. Defined this as a Class to use Dot notation from JS in code e.g: Terminal.OKGREEN
 
 class Terminal:
     HEADER = '\033[95m'

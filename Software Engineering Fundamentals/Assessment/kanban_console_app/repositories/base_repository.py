@@ -9,6 +9,38 @@ from typing import Type, TypeVar, Generic
 T = TypeVar('T', bound=BaseModel)
 
 class BaseRepository(Generic[T]):
+    """
+    BaseRepository is a generic class to handle database operations for any model that extends the BaseModel.
+
+    Attributes
+    ----------
+    type_map : dict
+        A mapping from Python types to SQLite types used for table creation.
+    db : DatabaseConnection
+        The database connection object used to execute queries.
+    table_name : str
+        The name of the table associated with the repository.
+    model_class : Type[T]
+        The class of the model that this repository manages.
+
+    Methods
+    -------
+    create_table(model: T)
+        Creates a table if it does not exist based on the fields in the model.
+    add_to_db(item: T) -> T
+        Adds a new item to the database and returns the newly created item with the assigned ID.
+    get_by_id(id: int) -> T
+        Fetches an item from the database by ID.
+    get_all() -> List[T]
+        Fetches all items from the database.
+    get_count_from_table()
+        Fetches the total count of records in the database.
+    delete_record(id: int, date: datetime) -> T
+        Marks a record as deleted in the database.
+    complete_record(id: int, date: datetime) -> T
+        Marks a record as completed in the database.
+    """
+
     type_map = {
         int: "INTEGER",
         Optional[int]: "INTEGER PRIMARY KEY",
@@ -24,7 +56,6 @@ class BaseRepository(Generic[T]):
         self.model_class = model_class
         self.create_table(self.model_class)
 
-    
     
     def create_table(self, model: T):
         column_definitions = []
@@ -49,20 +80,8 @@ class BaseRepository(Generic[T]):
         self.db.connection.commit()
 
     def add_to_db(self, item: T) -> T:
-        """
-        Adds a new item to the database.
-
-        Args:
-            item (T): The item object to be added.
-
-        Returns:
-            T: The newly created item object.
-        """
-
-        # Prepare our column names, exclude ID.
         column_names = [f.name for f in fields(item) if f.name != 'id']
 
-        # Prepare the query string
         query = f"""
         INSERT INTO {self.table_name} ({', '.join(column_names)})
         VALUES ({', '.join('?' for _ in column_names)})

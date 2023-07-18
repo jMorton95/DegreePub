@@ -6,6 +6,37 @@ from services.terminal.prompt_manager import PromptManager
 
 
 class OutputManager:
+    """
+    OutputManager class is responsible for managing and formatting the output presented to the user in the terminal. 
+    It also handles user inputs prompted on the terminal.
+
+    Methods
+    -------
+    _print_single_line(obj, colour_func)
+        Print a single line representation of an object using specified color function.
+    _print_multi_line(obj, colour_func)
+        Print a multi-line representation of an object using specified color function.
+    _handle_print(objects: list, single_line: bool)
+        Handles the print operation based on the 'single_line' flag.
+    multi_line(objects: list)
+        Executes a multi-line print for a list of objects.
+    single_line(objects: list)
+        Executes a single-line print for a list of objects.
+    startup_message()
+        Prints the start options and prompts the user for choice.
+    no_records_found(optional: str | None = None)
+        Prints a message indicating that no records were found.
+    print_options(options)
+        Prints the provided options to the console.
+    get_id_input(range: int)
+        Prompts the user for an id input within a given range.
+    display_update_information(items)
+        Displays update information and options for provided items.
+    display_time_logging_information(remaining_time: float)
+        Displays information about the time logging and prompts the user for the time to log.
+    show_time_logged(time_logged: float, time_remaining: float)
+        Displays a message indicating the successful logging of time.
+    """
 
     def __init__(self, formatter: Formatter, prompt_manager: PromptManager):
         self.formatter = formatter

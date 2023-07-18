@@ -3,6 +3,25 @@ from helpers.print_colours import print_green, print_red, prompt_underline
 
 
 class PromptManager:
+    """
+    PromptManager class is responsible for managing user inputs from the terminal. It provides various functions to take user input and perform validation checks.
+
+    Methods
+    -------
+    get_user_choice(options)
+        Prompts the user to make a choice from a list of options and returns the chosen option.
+    get_number_from_user(as_float: bool)
+        Prompts the user to enter a number, validates the input, and returns the number as a float if 'as_float' is true, or as an int otherwise.
+    get_number_from_user_in_range(top_end: int | float)
+        Prompts the user to enter a number within a specified range and returns the number.
+    get_raw_string_from_user() -> str
+        Prompts the user to enter a string and returns the input string.
+    get_user_confirmation(opt_string: str, id: int = 0) -> bool
+        Prompts the user for a Yes or No confirmation and returns True if 'Yes', or False otherwise.
+    continue_message()
+        Displays a message prompting the user to press any key to continue.
+    """
+    
     def get_user_choice(self, options):
         choice = self.get_number_from_user_in_range(len(options))
         print_green(f"\n{find_option_by_number(options, choice)}\n")

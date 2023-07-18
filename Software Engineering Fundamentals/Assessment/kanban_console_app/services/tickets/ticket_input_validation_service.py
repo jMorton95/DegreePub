@@ -124,5 +124,7 @@ class TicketInputValidationService:
             self.prompt_for_initial_estimate()
         )
     
+
     def call_chosen_update_function(self, choice: int):
+        #Directs function calls.
         return self.commands[choice]()

@@ -45,6 +45,16 @@ class TicketModel(ValidatedUserTicketInputs, BaseModel):
 
 @dataclass
 class ValidUpdateFields():
+    """
+    A dataclass representing the valid fields that can be updated for a ticket.
+
+    Attributes:
+        priority (int): The priority level of the ticket.
+        ticket_type (TicketType): The type of the ticket.
+        title (str): The title of the ticket.
+        description (str): The description of the ticket.
+    """
+    
     priority: int
     ticket_type: TicketType
     title: str

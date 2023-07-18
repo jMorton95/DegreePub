@@ -3,6 +3,9 @@ from enums.ticket_type import TicketType
 from models.ticket_model import TicketModel
 
 def generate_dummy_tickets() -> list[TicketModel]:
+    """
+    Generates the initial seed data for our application.
+    """
     return [
             TicketModel(
                 id=None,

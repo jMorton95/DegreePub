@@ -5,7 +5,7 @@ from repositories.base_repository import BaseRepository
 from repositories.database_connection import DatabaseConnection
 from services.base_service import BaseService
 
-#NOTE: Not intended to actually be run. Bootstrapped setup to demonstrate creating a new application.
+#NOTE: Not intended to actually be used. Bootstrapped setup to demonstrate creating a new application.
 def main():
         #Define a new dataclass with any desired properties.
         @dataclass
