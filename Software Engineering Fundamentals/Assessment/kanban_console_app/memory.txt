@@ -1,0 +1,105 @@
+1: Log File created at: 2023-07-18 11:42:30.617450
+2: Created Object in Memory: 0x23ea9197850 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:30.621448
+3: Created Object in Memory: 0x23ea7b038d0 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:30.632451
+4: Created Object in Memory: 0x23ea91a6210 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:30.636447
+5: Created Object in Memory: 0x23ea9196890 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:30.640448
+6: Created Object in Memory: 0x23ea91969d0 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:30.645449
+7: Created Object in Memory: 0x23ea91b5050 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:30.650447
+8: Created Object in Memory: 0x23ea91b4b90 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:30.654447
+9: Created Object in Memory: 0x23ea91b4d10 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:30.659451
+10: Created Object in Memory: 0x23ea91b4fd0 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:30.664447
+11: Created Object in Memory: 0x23ea9196c90 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:30.668447
+12: Created Object in Memory: 0x23ea91b5150 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:30.673448
+13: Created Object in Memory: 0x23ea6962fd0 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:30.677448
+14: Created Object in Memory: 0x23ea91b4cd0 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:30.682447
+15: Garbage Collecting: 0x23ea91969d0 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:30.687448
+16: Garbage Collecting: 0x23ea9196c90 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:30.692447
+17: Garbage Collecting: 0x23ea91b4b90 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:30.697449
+18: Garbage Collecting: 0x23ea9196890 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:30.701449
+19: Garbage Collecting: 0x23ea91b4fd0 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:30.731448
+20: Garbage Collecting: 0x23ea7b038d0 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:30.736448
+21: Garbage Collecting: 0x23ea6962fd0 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:30.741450
+22: Garbage Collecting: 0x23ea91b5150 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:30.746447
+23: Garbage Collecting: 0x23ea91b4cd0 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:30.751448
+24: Garbage Collecting: 0x23ea91b4d10 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:30.756447
+25: Garbage Collecting: 0x23ea91a6210 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:30.761448
+26: Garbage Collecting: 0x23ea9197850 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:30.766447
+27: Garbage Collecting: 0x23ea91b5050 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:30.770451
+28: Created Object in Memory: 0x23ea91b4a50 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:44.099449
+29: Created Object in Memory: 0x23ea91b50d0 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:44.105450
+30: Created Object in Memory: 0x23ea91b5cd0 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:44.111452
+31: Created Object in Memory: 0x23ea91b5790 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:44.116451
+32: Created Object in Memory: 0x23ea91b5e10 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:44.122449
+33: Created Object in Memory: 0x23ea91b5e50 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:44.128450
+34: Created Object in Memory: 0x23ea91b4d50 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:44.134454
+35: Created Object in Memory: 0x23ea91b5050 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:44.139451
+36: Created Object in Memory: 0x23ea91b4d10 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:44.144451
+37: Created Object in Memory: 0x23ea69ad9d0 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:44.148451
+38: Created Object in Memory: 0x23ea69c5510 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:44.154453
+39: Created Object in Memory: 0x23ea91b5150 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:44.159450
+40: Created Object in Memory: 0x23ea91b4fd0 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:44.164450
+41: Garbage Collecting: 0x23ea91b4fd0 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:44.205449
+42: Garbage Collecting: 0x23ea91b5150 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:44.212450
+43: Garbage Collecting: 0x23ea69c5510 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:44.218450
+44: Garbage Collecting: 0x23ea69ad9d0 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:44.224453
+45: Garbage Collecting: 0x23ea91b4d10 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:44.231451
+46: Garbage Collecting: 0x23ea91b5050 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:44.236972
+47: Garbage Collecting: 0x23ea91b4d50 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:44.242973
+48: Garbage Collecting: 0x23ea91b5e50 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:44.247973
+49: Garbage Collecting: 0x23ea91b5e10 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:44.253973
+50: Garbage Collecting: 0x23ea91b5790 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:44.258973
+51: Garbage Collecting: 0x23ea91b5cd0 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:44.263974
+52: Garbage Collecting: 0x23ea91b50d0 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:44.268973
+53: Garbage Collecting: 0x23ea91b4a50 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:44.272973
+54: Created Object in Memory: 0x23ea91b4a50 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:50.427433
+55: Created Object in Memory: 0x23ea91b5cd0 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:50.433432
+56: Created Object in Memory: 0x23ea91b5790 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:50.438432
+57: Created Object in Memory: 0x23ea69acd50 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:50.443434
+58: Created Object in Memory: 0x23ea91b5e50 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:50.449432
+59: Created Object in Memory: 0x23ea91b50d0 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:50.455433
+60: Created Object in Memory: 0x23ea91b5050 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:50.460434
+61: Created Object in Memory: 0x23ea69acc90 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:50.465433
+62: Created Object in Memory: 0x23ea91b5150 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:50.470431
+63: Created Object in Memory: 0x23ea91b4d50 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:50.474431
+64: Created Object in Memory: 0x23ea6294850 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:50.480433
+65: Created Object in Memory: 0x23ea91b4d10 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:50.484431
+66: Created Object in Memory: 0x23ea91b5290 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:50.489432
+67: Garbage Collecting: 0x23ea91b5e50 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:50.494431
+68: Garbage Collecting: 0x23ea91b5290 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:50.505433
+69: Garbage Collecting: 0x23ea91b4d10 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:50.511433
+70: Garbage Collecting: 0x23ea6294850 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:50.517431
+71: Garbage Collecting: 0x23ea91b5150 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:50.522433
+72: Garbage Collecting: 0x23ea69acc90 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:50.527432
+73: Garbage Collecting: 0x23ea91b50d0 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:50.532433
+74: Garbage Collecting: 0x23ea91b5790 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:50.537434
+75: Garbage Collecting: 0x23ea91b5cd0 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:50.542433
+76: Garbage Collecting: 0x23ea91b4a50 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:50.547431
+77: Garbage Collecting: 0x23ea91b4d50 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:50.552431
+78: Garbage Collecting: 0x23ea91b5050 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:50.557431
+79: Garbage Collecting: 0x23ea69acd50 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:50.562433
+80: Created Object in Memory: 0x23ea6963610 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:58.234221
+81: Created Object in Memory: 0x23ea699d810 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:58.240222
+82: Created Object in Memory: 0x23ea699f7d0 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:58.246221
+83: Created Object in Memory: 0x23ea91b4d50 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:58.251221
+84: Created Object in Memory: 0x23ea91b4910 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:58.256223
+85: Created Object in Memory: 0x23ea91b5050 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:58.262221
+86: Created Object in Memory: 0x23ea6c6c390 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:58.268220
+87: Created Object in Memory: 0x23ea91b5790 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:58.273220
+88: Created Object in Memory: 0x23ea91b50d0 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:58.278222
+89: Created Object in Memory: 0x23ea91b5e10 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:58.283220
+90: Created Object in Memory: 0x23ea91b4a50 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:58.288222
+91: Created Object in Memory: 0x23ea91b5150 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:58.292223
+92: Created Object in Memory: 0x23ea91b4d10 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:58.297220
+93: Garbage Collecting: 0x23ea91b4910 - TicketID - 5 - TicketName - Faulty Deleted - at 2023-07-18 11:42:58.301223
+94: Garbage Collecting: 0x23ea91b5e10 - TicketID - 10 - TicketName - AWS Cloud environments - at 2023-07-18 11:42:58.306222
+95: Garbage Collecting: 0x23ea6c6c390 - TicketID - 7 - TicketName - Emergency database restore. - at 2023-07-18 11:42:58.311223
+96: Garbage Collecting: 0x23ea91b4d50 - TicketID - 4 - TicketName - Printer Service for Application Xeta is down. - at 2023-07-18 11:42:58.315220
+97: Garbage Collecting: 0x23ea91b50d0 - TicketID - 9 - TicketName - Set up a CI/CD Pipeline for rapid deployment of features. - at 2023-07-18 11:42:58.344374
+98: Garbage Collecting: 0x23ea699d810 - TicketID - 2 - TicketName - Document the requirements for Project Uno. - at 2023-07-18 11:42:58.350222
+99: Garbage Collecting: 0x23ea91b5150 - TicketID - 12 - TicketName - 45645hrth45hfgh - at 2023-07-18 11:42:58.356221
+100: Garbage Collecting: 0x23ea91b4a50 - TicketID - 11 - TicketName - 34534gf34g3g - at 2023-07-18 11:42:58.362221
+101: Garbage Collecting: 0x23ea91b4d10 - TicketID - 13 - TicketName - 1234567890 - at 2023-07-18 11:42:58.367220
+102: Garbage Collecting: 0x23ea91b5790 - TicketID - 8 - TicketName - Primary development allocated for Client Uno's Web Shop - at 2023-07-18 11:42:58.372222
+103: Garbage Collecting: 0x23ea699f7d0 - TicketID - 3 - TicketName - Build a proof of Concept system for Project Uno - at 2023-07-18 11:42:58.379223
+104: Garbage Collecting: 0x23ea6963610 - TicketID - 1 - TicketName - Project Uno Requirements Analysis - at 2023-07-18 11:42:58.385220
+105: Garbage Collecting: 0x23ea91b5050 - TicketID - 6 - TicketName - Testing of Client Uno's Online Shop - at 2023-07-18 11:42:58.390223

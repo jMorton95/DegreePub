@@ -6,3 +6,20 @@ Isolation: Databases can have multiple sources of transactions. Isolation ensure
 – E.g. If only one ticket to an event remains and two people attempt to purchase it at, only the first transaction will complete.
 Durability: This ensures that in the event of critical database failures, no completed transactions are lost.
 – E.g. If you purchase an item online and your account is billed, and a critical database outage occurs, Durability ensures that this transaction is not lost when the database is recovered.
+
+
+Distributed Database:
+1. Complexity
+an acceptable level of performance, reliability, availability is more complex then a centralized DBMS.
+2. Cost
+a distributed DBMS requires additional hardware to establish a network between sites.There are ongoing communication costs incurred with the use of this network. There are also additional labor costs to manage and maintain the local DBMSs and the underlying network.
+3. Security
+However, in a distributed DBMS not only does access to replicated data have to be controlled in multiple locations but also the network itself has to be made secure. In the past, networks were regarded as an insecure communication medium. Although this is still partially true, significant developments have been made to make networks more secure.
+4. Integrity control more difficult
+In a distributed DBMS, the communication and processing costs that are required to enforce integrity constraints are high as compared to centralized system.
+5. Lack of Standards
+Although distributed DBMSs depend on effective communication, we are only now starting to see the appearance of standard communication and data access protocols.This lack of standards has significantly limited the potential of distributed DBMSs. There are also no tools or methodologies to help users convert a centralized DBMS into a distributed DBMS
+6. Lack of experience
+General-purpose distributed DBMSs have not been widely accepted, although many of the protocols and problems are well understood.Consequently, we do not yet have the same level of experience in industry as we have with centralized DBMSs. For a prospective adopter of this technology, this may be a significant deterrent.
+7. Database design more complex
+Besides the normal difficulties of designing a centralized database, the design of a distributed database has to take account of fragmentation of data, allocation of fragmentation to specific sites, and data replication.

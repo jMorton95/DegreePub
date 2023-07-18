@@ -6,6 +6,7 @@ from enums.ticket_type import TicketType
 This module contains our main dataclass for Object Relational Mapping
 """
 
+
 @dataclass
 class ValidatedUserTicketInputs():
     priority: int
@@ -13,7 +14,7 @@ class ValidatedUserTicketInputs():
     title: str
     description: str
     initial_estimate: float
-    
+
     """
     A dataclass representing the user input driven content of the Ticket model.
     It contains the following properties:
@@ -26,18 +27,21 @@ class ValidatedUserTicketInputs():
     - priority: an integer between 1 and 5
     """
 
+
 @dataclass
 class TicketModel(ValidatedUserTicketInputs, BaseModel):
-   #Combines BaseModel properties that all Models inherit with User Input fields from ValidatedUserTicketInputs and stores auto-calculated properties. 
+   # Combines BaseModel properties that all Models inherit with User Input fields from ValidatedUserTicketInputs and stores auto-calculated properties.
     remaining_time: float
     logged_time: float
 
     def __post_init__(self):
-        LogController.new_log(f"Created Object in Memory: {hex(id(self))} - TicketID - {self.id} - TicketName - {self.title}", "memory.txt")
+        # Currently disabled, but was used during Development for tracking Object creation order & garbage collection
+        # LogController.new_log(f"Created Object in Memory: {hex(id(self))} - TicketID - {self.id} - TicketName - {self.title}", "memory.txt")
         return super().__post_init__()
-    
-    def __del__(self):
-        LogController.new_log(f"Garbage Collecting: {hex(id(self))} - TicketID - {self.id} - TicketName - {self.title}", "memory.txt")
+
+    # def __del__(self):
+        # LogController.new_log(f"Garbage Collecting: {hex(id(self))} - TicketID - {self.id} - TicketName - {self.title}", "memory.txt")
+
 
 @dataclass
 class ValidUpdateFields():
@@ -45,5 +49,3 @@ class ValidUpdateFields():
     ticket_type: TicketType
     title: str
     description: str
-
-    
