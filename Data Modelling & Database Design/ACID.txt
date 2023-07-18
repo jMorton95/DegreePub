@@ -1,0 +1,8 @@
+Atomicity: Ensures all transactions are completed successfully and in full. If any steps of a long transaction fail, the entire operation is aborted and the database is rolled back to its previous state.
+– E.g. Transferring money from one bank to another requires a subtraction of the amount from Bank 1 & the addition of the amount to Bank 2. If Step two fails, Bank 1’s subtraction will be reverted.
+Consistency: Certain transactions have defined rules, consistency ensures that any transactions that break these rules are aborted and rolled back.
+– E.g. A library has a collection of books & states the stock of each book cannot be a negative number. Consistency would revert any transaction that would break this rule.
+Isolation: Databases can have multiple sources of transactions. Isolation ensures that transactions are executed sequentially, not concurrently, so each transaction accesses the most up-to-date state of the database schema.
+– E.g. If only one ticket to an event remains and two people attempt to purchase it at, only the first transaction will complete.
+Durability: This ensures that in the event of critical database failures, no completed transactions are lost.
+– E.g. If you purchase an item online and your account is billed, and a critical database outage occurs, Durability ensures that this transaction is not lost when the database is recovered.
