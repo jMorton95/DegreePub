@@ -22,13 +22,13 @@ class PromptManager:
         Displays a message prompting the user to press any key to continue.
     """
     
-    def get_user_choice(self, options):
+    def get_user_choice(self, options: list[str]) -> int | float:
         choice = self.get_number_from_user_in_range(len(options))
         print_green(f"\n{find_option_by_number(options, choice)}\n")
 
         return choice
         
-    def get_number_from_user(self, as_float: bool):
+    def get_number_from_user(self, as_float: bool) -> int | float:
         while True: 
             user_input = prompt_underline("\nPlease enter your choice (Number): ")
             
@@ -41,7 +41,7 @@ class PromptManager:
         
             return int(user_input) if not as_float else float(user_input)
         
-    def get_number_from_user_in_range(self, top_end: int | float):
+    def get_number_from_user_in_range(self, top_end: int | float) -> int | float:
         while True: 
             choice = self.get_number_from_user(as_float = True if isinstance(top_end, float) else False)
             

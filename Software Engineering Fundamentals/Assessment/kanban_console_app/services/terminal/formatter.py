@@ -19,10 +19,10 @@ class Formatter():
     def make_readable(self, key: str) -> str:
         return ' '.join(map(str.capitalize, key.split('_')))
     
-    def day_suffix(self, day: int):
+    def day_suffix(self, day: int) -> str:
         return ("th" if 4 <= day <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(day % 10, "th"))
 
-    def format_date(self, date: datetime):
+    def format_date(self, date: datetime) -> str:
         return date.strftime(f"%H:%M %p %d{self.day_suffix(date.day)} %B %y")
     
     def format_object(self, obj) -> str:

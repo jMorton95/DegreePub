@@ -100,14 +100,14 @@ class OutputManager:
         print_red("No records found.")
         if (optional): print_red(optional)
 
-    def print_options(self, options):
+    def print_options(self, options: list[str]):
         for opt in options:
             print_blue(opt)
 
     def get_id_input(self, range: int):
         return self.prompt_manager.get_number_from_user_in_range(range)
     
-    def display_update_information(self, items):
+    def display_update_information(self, items: list):
         self.multi_line(items)
         print_green("Please note, once a ticket has been created, the initial estimate cannot be changed.\nPlease open a record by ID to log time. ")
         self.print_options(self.update_options)

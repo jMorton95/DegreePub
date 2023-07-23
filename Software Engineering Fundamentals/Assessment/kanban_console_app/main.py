@@ -1,6 +1,4 @@
 from config.composition_manager import TicketConfiguration
-from controllers.log_controller import LogController
-
 
 
 def main():

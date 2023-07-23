@@ -18,9 +18,9 @@ class Singleton(type):
             cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
         return cls._instances[cls]
 
-# This class uses Singleton metaclass to create a single instance
+# This class uses Singleton metaclass to create a single instance that will be shared for any inheritors of the base Configuration.
 # It creates instances of DatabaseConnection and OutputManager
-class Configuration(metaclass=Singleton):
+class BaseConfiguration(metaclass=Singleton):
     def __init__(self):
         # Create a DatabaseConnection instance if not exists
         if not hasattr(self, 'app_db_conn'):
@@ -34,7 +34,7 @@ class Configuration(metaclass=Singleton):
             )
 
 # TicketConfiguration inherits from Configuration class and additionally composes the TicketController.
-class TicketConfiguration(Configuration):
+class TicketConfiguration(BaseConfiguration):
     def __init__(self):
         super().__init__()
         
