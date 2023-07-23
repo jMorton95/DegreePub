@@ -97,7 +97,7 @@ class TicketService(BaseService[TicketModel]):
     
     def update_record(self, ticket: TicketModel, field_to_update: int, updated_value) -> TicketModel:
         setattr(ticket, [f.name for f in fields(ValidUpdateFields)][field_to_update - 1], updated_value)
-        self.ticket_repository.update_record(ticket.id, ticket, datetime.now())
+        return self.ticket_repository.update_record(ticket.id, ticket, datetime.now())
 
     def update_ticket_time(self, ticket: TicketModel, time):
         """Update the logged time and remaining time for a ticket."""

@@ -139,6 +139,7 @@ class TicketController():
             field_to_update = self.output_manager.display_update_information(self.service.populate_update_fields(selected_ticket))
             updated_value = self.input_validator.call_chosen_update_function(field_to_update)
             self.service.update_record(selected_ticket, field_to_update, updated_value)
+            print_green(f"Successfully updated record {selected_ticket.id} : {selected_ticket.title}.")
             LogController.new_log(f"Successfully updated record {selected_ticket.id} : {selected_ticket.title}.")
         return True
 
