@@ -29,7 +29,9 @@ class TicketRepository(BaseRepository[TicketModel]):
         super().__init__(db_conn, table_name, TicketModel)
 
         if (self.get_count_from_table() == 0):
+            print("First time run detected, beginning database seeding...")
             self.seed_database()
+            print("Database seed complete!")
 
     def seed_database(self): 
             for record in generate_dummy_tickets():

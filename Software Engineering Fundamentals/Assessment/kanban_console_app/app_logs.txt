@@ -1,38 +1,36 @@
-1: Log File created at: 2023-07-18 11:42:26.793178
-2: Application Started - at 2023-07-18 11:42:26.798178
-3: User attempted: preview_all - at 2023-07-18 11:42:30.616447
-4: Bucket Sorting... - at 2023-07-18 11:42:30.706447
-5: Finished BucketSort - at 2023-07-18 11:42:30.710449
-6: QuickSorting buckets... - at 2023-07-18 11:42:30.714448
-7: Finished QuickSort - at 2023-07-18 11:42:30.717449
-8: Preview All Succeeded.  - at 2023-07-18 11:42:30.725451
-9: User attempted: show_all_raw - at 2023-07-18 11:42:44.094450
-10: User attempted: show_completed - at 2023-07-18 11:42:50.422432
-11: Found: 3 completed records. - at 2023-07-18 11:42:50.498434
-12: User attempted: preview_all - at 2023-07-18 11:42:58.228222
-13: Bucket Sorting... - at 2023-07-18 11:42:58.319221
-14: Finished BucketSort - at 2023-07-18 11:42:58.323220
-15: QuickSorting buckets... - at 2023-07-18 11:42:58.327222
-16: Finished QuickSort - at 2023-07-18 11:42:58.331223
-17: Preview All Succeeded.  - at 2023-07-18 11:42:58.338220
-18: Application Started - at 2023-07-23 22:54:15.187341
-19: User attempted: preview_all - at 2023-07-23 22:54:17.559122
-20: Bucket Sorting... - at 2023-07-23 22:54:17.572123
-21: Finished BucketSort - at 2023-07-23 22:54:17.578124
-22: QuickSorting buckets... - at 2023-07-23 22:54:17.584123
-23: Finished QuickSort - at 2023-07-23 22:54:17.589123
-24: Preview All Succeeded.  - at 2023-07-23 22:54:17.595123
-25: User attempted: update_ticket - at 2023-07-23 22:54:26.444086
-26: Successfully updated record 2 : Document the requirements for Project Uno.. - at 2023-07-23 22:55:39.913005
-27: User attempted: preview_all - at 2023-07-23 22:55:48.222117
-28: Bucket Sorting... - at 2023-07-23 22:55:48.229118
-29: Finished BucketSort - at 2023-07-23 22:55:48.236118
-30: QuickSorting buckets... - at 2023-07-23 22:55:48.242118
-31: Finished QuickSort - at 2023-07-23 22:55:48.248118
-32: Preview All Succeeded.  - at 2023-07-23 22:55:48.254118
-33: Application Started - at 2023-07-23 22:57:37.372949
-34: User attempted: update_ticket - at 2023-07-23 22:57:39.813891
-35: Successfully updated record 2 : Document the requirements for Project Uno.. - at 2023-07-23 22:57:44.385955
-36: Application Started - at 2023-07-23 23:02:07.393237
-37: User attempted: update_ticket - at 2023-07-23 23:02:15.020965
-38: Successfully updated record 2 : Document the requirements for Project Uno.. - at 2023-07-23 23:02:20.652557
+1: Log File created at: 2023-08-29 14:51:25.802831
+2: Application Started - at 2023-08-29 14:51:25.803831
+3: Application Started - at 2023-08-29 14:52:43.185425
+4: Application Started - at 2023-08-29 14:52:50.313379
+5: User attempted: preview_all - at 2023-08-29 14:53:20.073322
+6: Bucket Sorting... - at 2023-08-29 14:53:20.075319
+7: Finished BucketSort - at 2023-08-29 14:53:20.076343
+8: QuickSorting buckets... - at 2023-08-29 14:53:20.077319
+9: Finished QuickSort - at 2023-08-29 14:53:20.077319
+10: Preview All Succeeded.  - at 2023-08-29 14:53:20.080325
+11: User attempted: view_by_id - at 2023-08-29 14:53:44.836237
+12: User logging time to 1: Project Uno Requirements Analysis.  - at 2023-08-29 14:54:15.699101
+13: Attempting to log 6.0 to 1: Project Uno Requirements Analysis - at 2023-08-29 14:54:19.310691
+14: Logging 6.0 to ticket: 1 with 12.0 remaining.  - at 2023-08-29 14:54:19.311600
+15: Successfully logged 6.0 to ticket: 1 with 12.0 remaining.  - at 2023-08-29 14:54:19.328551
+16: Successfully logged time. Total time logged: 10.0. Remaining time: 6.0 - at 2023-08-29 14:54:19.329546
+17: User attempted: new_ticket - at 2023-08-29 14:54:59.608699
+18: Attempting to create new ticket from inputs: priority: 2 ticket_type: TicketType.PLANNING title: New Ticket  description: This new ticket is being created as an example initial_estimate: 5.75 - at 2023-08-29 14:55:25.471671
+19: Successfully created new ticket - 11: New Ticket  - at 2023-08-29 14:55:25.489299
+20: User attempted: update_ticket - at 2023-08-29 14:56:04.034365
+21: Successfully updated record 1 : Project Uno Requirements Analysis. - at 2023-08-29 14:56:12.747398
+22: User attempted: delete_ticket - at 2023-08-29 14:56:38.487833
+23: Deleted record 1: Project Uno Requirements Analysis successfully. - at 2023-08-29 14:56:42.403014
+24: User attempted: search_by_name - at 2023-08-29 14:57:04.940262
+25: User searched for: as - at 2023-08-29 14:57:08.631360
+26: Found: 1 records. - at 2023-08-29 14:57:08.633385
+27: User attempted: search_by_name - at 2023-08-29 14:57:20.625186
+28: User searched for: client - at 2023-08-29 14:57:22.224857
+29: Found: 2 records. - at 2023-08-29 14:57:22.227903
+30: User attempted: show_completed - at 2023-08-29 14:57:45.755171
+31: Found: 3 completed records. - at 2023-08-29 14:57:45.757192
+32: User attempted: show_deleted - at 2023-08-29 14:58:04.922288
+33: Found: 2 deleted records. - at 2023-08-29 14:58:04.924285
+34: User attempted: show_all_raw - at 2023-08-29 14:58:23.028160
+35: User attempted: quit - at 2023-08-29 14:58:49.646477
+36: Successfully Quit Application - at 2023-08-29 14:58:51.334463
