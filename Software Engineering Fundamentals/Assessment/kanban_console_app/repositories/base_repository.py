@@ -71,7 +71,7 @@ class BaseRepository(Generic[T]):
                 raise ValueError(f"Unsupported field type: {field.type} for field {field.name}")
 
             column_definitions.append(f"{field.name} {sql_type}")
-
+       
         self.db.cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS {self.table_name} (
                 {', '.join(column_definitions)}

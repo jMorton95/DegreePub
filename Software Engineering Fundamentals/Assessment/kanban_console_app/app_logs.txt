@@ -34,3 +34,6 @@
 34: User attempted: show_all_raw - at 2023-08-29 14:58:23.028160
 35: User attempted: quit - at 2023-08-29 14:58:49.646477
 36: Successfully Quit Application - at 2023-08-29 14:58:51.334463
+37: Application Started - at 2023-08-29 18:34:04.864531
+38: Application Started - at 2023-08-29 19:54:53.197713
+39: User attempted: show_all_raw - at 2023-08-29 19:54:55.624549

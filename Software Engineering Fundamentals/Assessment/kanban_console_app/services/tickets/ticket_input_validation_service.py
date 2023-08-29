@@ -31,7 +31,7 @@ class TicketInputValidationService:
         while True:
             user_input = prompt_underline("Please enter a Priority between 1 & 5. ")
 
-            if (user_input.upper == "EXIT"):
+            if (user_input.upper() == "EXIT"):
                 break
 
             try:
