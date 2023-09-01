@@ -37,3 +37,5 @@
 37: Application Started - at 2023-08-29 18:34:04.864531
 38: Application Started - at 2023-08-29 19:54:53.197713
 39: User attempted: show_all_raw - at 2023-08-29 19:54:55.624549
+40: Application Started - at 2023-09-01 22:16:32.556217
+41: Application Started - at 2023-09-01 22:18:02.340328

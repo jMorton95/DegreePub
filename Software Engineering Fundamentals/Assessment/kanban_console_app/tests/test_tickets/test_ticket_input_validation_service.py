@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch, Mock
+from unittest.mock import call, patch, Mock
 from enums.ticket_type import TicketType
 from services.tickets.ticket_input_validation_service import TicketInputValidationService
 

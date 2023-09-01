@@ -86,7 +86,7 @@ class TicketService(BaseService[TicketModel]):
         return self.sort_remaining_time(left) + middle + self.sort_remaining_time(right)
     
     def search_string_values(self, tickets: list[TicketModel], query: str):
-        return [t for t in tickets if query.upper() in (t.title.upper() or t.description.upper())]
+        return [t for t in tickets if query.upper() in t.title.upper() or query.upper() in t.description.upper()] 
 
     def delete_record(self, id: int) -> TicketModel:
         return self.ticket_repository.delete_record(id, datetime.now())
