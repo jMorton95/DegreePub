@@ -23,4 +23,4 @@ def find_option_by_number(options: list[str], user_input: int):
     return next((opt for opt in options if (int(opt[0]) == user_input)), "Unknown Option")
 
 def check_option_in_range(options: int | float, opt: int | float):
-    return True if opt <= options else False
+    return True if opt <= options and opt > 0 else False

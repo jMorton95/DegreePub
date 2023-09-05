@@ -12,8 +12,8 @@ class TicketInputValidationService:
         self.commands = {
             1: self.prompt_and_validate_priority,
             2: self.prompt_and_validate_ticket_type,
-            3: partial(self.prompt_for_string_of_minimum_length, length=10),
-            4: partial(self.prompt_for_string_of_minimum_length, length=25),
+            3: partial(self.prompt_for_string_of_minimum_length, prompt="Ticket Name:", length=10),
+            4: partial(self.prompt_for_string_of_minimum_length, prompt="Ticket Description:", length=25),
         }
 
     def prompt_and_validate_priority(self) -> int:
@@ -101,6 +101,7 @@ class TicketInputValidationService:
 
             try:
                 estimate = float(user_input)
+                if estimate < 0 : raise ValueError
             except ValueError:
                 print_red(f"{user_input} was not a valid number. ")
                 continue
