@@ -1,3 +1,5 @@
+import re
+
 def convert_float_to_time(time_float):
     hours = int(time_float)
     minutes = (time_float - hours) * 60
@@ -19,8 +21,12 @@ def validate_as_float(input: str):
         return False
     
 def find_option_by_number(options: list[str], user_input: int):
-    #Search our pre-defined List of outputs with with a user input. Format example: "3: User Option..."
-    return next((opt for opt in options if (int(opt[0]) == user_input)), "Unknown Option")
+    for opt in options:
+        # Extract the number from the beginning of the string
+        match = re.match(r'^(\d+):', opt)
+        if match and int(match.group(1)) == user_input:
+            return opt
+    return "Unknown Option"
 
 def check_option_in_range(options: int | float, opt: int | float):
     return True if opt <= options and opt > 0 else False

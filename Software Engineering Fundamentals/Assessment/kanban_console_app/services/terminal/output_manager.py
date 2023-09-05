@@ -52,7 +52,7 @@ class OutputManager:
         "7: Show completed records.",
         "8: Show deleted records.",
         "9: Show all Records Raw & Unfiltered.",
-        "0: Quit"
+        "10: Quit"
     ]
 
     update_options = [

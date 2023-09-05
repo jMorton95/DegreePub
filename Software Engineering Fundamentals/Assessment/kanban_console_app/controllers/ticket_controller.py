@@ -39,7 +39,7 @@ class TicketController():
             7: self.show_completed,
             8: self.show_deleted,
             9: self.show_all_raw,
-            0: self.quit
+            10: self.quit
         }
 
     def start(self):
@@ -59,6 +59,7 @@ class TicketController():
             if run:
                 self.output_manager.prompt_manager.continue_message()
             if not run:
+                print_red("Quitting application...")
                 LogController.new_log("Successfully Quit Application")
 
     def preview_all(self):
@@ -153,7 +154,7 @@ class TicketController():
         if (record.deleted):
             print_red("Record already deleted. ")
             LogController.new_log(f"Deleting record {record.id}: {record.title} failed. Already deleted.")
-            return
+            return True
 
         self.output_manager.single_line(record)
 

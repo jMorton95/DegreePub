@@ -39,3 +39,112 @@
 39: User attempted: show_all_raw - at 2023-08-29 19:54:55.624549
 40: Application Started - at 2023-09-01 22:16:32.556217
 41: Application Started - at 2023-09-01 22:18:02.340328
+42: Application Started - at 2023-09-05 09:39:39.898939
+43: User attempted: preview_all - at 2023-09-05 09:39:43.090610
+44: Bucket Sorting... - at 2023-09-05 09:39:43.097544
+45: Finished BucketSort - at 2023-09-05 09:39:43.099659
+46: QuickSorting buckets... - at 2023-09-05 09:39:43.101597
+47: Finished QuickSort - at 2023-09-05 09:39:43.103852
+48: Preview All Succeeded.  - at 2023-09-05 09:39:43.105865
+49: User attempted: preview_all - at 2023-09-05 09:39:47.050398
+50: Bucket Sorting... - at 2023-09-05 09:39:47.052460
+51: Finished BucketSort - at 2023-09-05 09:39:47.054075
+52: QuickSorting buckets... - at 2023-09-05 09:39:47.056192
+53: Finished QuickSort - at 2023-09-05 09:39:47.058174
+54: Preview All Succeeded.  - at 2023-09-05 09:39:47.062084
+55: Application Started - at 2023-09-05 09:40:13.404116
+56: User attempted: preview_all - at 2023-09-05 09:40:15.170365
+57: Bucket Sorting... - at 2023-09-05 09:40:15.177358
+58: Finished BucketSort - at 2023-09-05 09:40:15.179361
+59: QuickSorting buckets... - at 2023-09-05 09:40:15.181794
+60: Finished QuickSort - at 2023-09-05 09:40:15.182929
+61: Preview All Succeeded.  - at 2023-09-05 09:40:15.186806
+62: User attempted: view_by_id - at 2023-09-05 11:28:40.214663
+63: User searched for deleted record: 5: Faulty Deleted - at 2023-09-05 11:28:43.115235
+64: User attempted: view_by_id - at 2023-09-05 11:33:05.744735
+65: Record: 4 - Printer Service for Application Xeta is down. is complete. Not prompting user to log time - at 2023-09-05 11:33:06.313522
+66: User attempted: view_by_id - at 2023-09-05 11:36:48.714363
+67: User searched for deleted record: 5: Faulty Deleted - at 2023-09-05 11:36:49.306492
+68: User attempted: view_by_id - at 2023-09-05 11:40:41.833914
+69: Record: 7 - Emergency database restore. is complete. Not prompting user to log time - at 2023-09-05 11:40:42.836906
+70: User attempted: view_by_id - at 2023-09-05 11:42:02.077721
+71: Application Started - at 2023-09-05 11:48:51.736504
+72: User attempted: view_by_id - at 2023-09-05 11:48:55.255829
+73: Application Started - at 2023-09-05 11:51:19.420159
+74: User attempted: view_by_id - at 2023-09-05 11:51:21.227817
+75: Application Started - at 2023-09-05 11:53:55.616710
+76: User attempted: view_by_id - at 2023-09-05 11:54:01.409971
+77: User searched for deleted record: 5: Faulty Deleted - at 2023-09-05 11:54:09.210036
+78: User attempted: view_by_id - at 2023-09-05 11:54:15.046644
+79: Record: 4 - Printer Service for Application Xeta is down. is complete. Not prompting user to log time - at 2023-09-05 11:54:15.466246
+80: User attempted: view_by_id - at 2023-09-05 11:54:18.070665
+81: Application Started - at 2023-09-05 11:54:44.468396
+82: User attempted: new_ticket - at 2023-09-05 11:54:49.927851
+83: Application Started - at 2023-09-05 14:02:20.398408
+84: User attempted: new_ticket - at 2023-09-05 14:02:25.046159
+85: Application Started - at 2023-09-05 14:20:48.232769
+86: User attempted: new_ticket - at 2023-09-05 14:20:51.989497
+87: Attempting to create new ticket from inputs: priority: 4 ticket_type: TicketType.PLANNING title: 1234567890 description: this is greater than 25 characters initial_estimate: -4.0 - at 2023-09-05 14:29:57.496723
+88: Successfully created new ticket - 11: 1234567890 - at 2023-09-05 14:29:57.532470
+89: Application Started - at 2023-09-05 14:39:37.242980
+90: User attempted: new_ticket - at 2023-09-05 14:39:39.797267
+91: Application Started - at 2023-09-05 14:42:14.890752
+92: User attempted: update_ticket - at 2023-09-05 14:42:24.264896
+93: Application Started - at 2023-09-05 14:42:55.816455
+94: User attempted: update_ticket - at 2023-09-05 14:42:57.348807
+95: Updating record 5: Faulty Deleted failed. Deleted. - at 2023-09-05 14:42:57.941981
+96: User attempted: update_ticket - at 2023-09-05 14:47:08.025652
+97: Successfully updated record 4 : Printer Service for Application Xeta is down.. - at 2023-09-05 14:55:32.767331
+98: User attempted: update_ticket - at 2023-09-05 14:59:08.403275
+99: Application Started - at 2023-09-05 15:06:39.211601
+100: User attempted: update_ticket - at 2023-09-05 15:06:43.588792
+101: Application Started - at 2023-09-05 15:08:55.357458
+102: User attempted: update_ticket - at 2023-09-05 15:10:36.276081
+103: Application Started - at 2023-09-05 15:12:48.882479
+104: User attempted: update_ticket - at 2023-09-05 15:12:52.452054
+105: Application Started - at 2023-09-05 15:13:43.609526
+106: User attempted: update_ticket - at 2023-09-05 15:13:48.710528
+107: Application Started - at 2023-09-05 15:15:29.453021
+108: User attempted: update_ticket - at 2023-09-05 15:15:30.800146
+109: Application Started - at 2023-09-05 15:17:20.166507
+110: User attempted: update_ticket - at 2023-09-05 15:17:21.549245
+111: Successfully updated record 3 : 1234567890. - at 2023-09-05 15:17:34.382827
+112: User attempted: update_ticket - at 2023-09-05 15:18:26.713110
+113: Successfully updated record 3 : 1234567890. - at 2023-09-05 15:18:41.563057
+114: User attempted: delete_ticket - at 2023-09-05 15:22:35.333948
+115: Deleting record 5: Faulty Deleted failed. Already deleted. - at 2023-09-05 15:22:36.308925
+116: Successfully Quit Application - at 2023-09-05 15:22:36.311924
+117: Application Started - at 2023-09-05 15:23:47.665510
+118: User attempted: delete_ticket - at 2023-09-05 15:23:50.683809
+119: Deleting record 5: Faulty Deleted failed. Already deleted. - at 2023-09-05 15:23:51.573249
+120: User attempted: delete_ticket - at 2023-09-05 15:23:55.890944
+121: Deleted record 6: Testing of Client Uno's Online Shop successfully. - at 2023-09-05 15:24:02.860613
+122: User attempted: search_by_name - at 2023-09-05 15:28:56.650097
+123: User searched for: func - at 2023-09-05 15:29:09.219402
+124: Found: 1 records. - at 2023-09-05 15:29:09.222470
+125: User attempted: search_by_name - at 2023-09-05 15:30:24.043782
+126: User searched for: alpha - at 2023-09-05 15:30:24.914627
+127: Found: 1 records. - at 2023-09-05 15:30:24.917527
+128: User attempted: show_completed - at 2023-09-05 15:37:01.604068
+129: Found: 3 completed records. - at 2023-09-05 15:37:01.607077
+130: User attempted: show_deleted - at 2023-09-05 15:40:22.522977
+131: Found: 2 deleted records. - at 2023-09-05 15:40:22.525070
+132: Application Started - at 2023-09-05 15:43:38.429426
+133: User attempted: show_all_raw - at 2023-09-05 15:43:41.701384
+134: Application Started - at 2023-09-05 16:15:53.895088
+135: User attempted: preview_all - at 2023-09-05 16:15:55.346285
+136: Bucket Sorting... - at 2023-09-05 16:15:55.364278
+137: Finished BucketSort - at 2023-09-05 16:15:55.366277
+138: QuickSorting buckets... - at 2023-09-05 16:15:55.368277
+139: Finished QuickSort - at 2023-09-05 16:15:55.371397
+140: Preview All Succeeded.  - at 2023-09-05 16:15:55.373418
+141: Application Started - at 2023-09-05 16:16:15.400021
+142: User attempted: quit - at 2023-09-05 16:16:17.252740
+143: Successfully Quit Application - at 2023-09-05 16:16:18.680392
+144: Application Started - at 2023-09-05 16:16:39.856654
+145: User attempted: quit - at 2023-09-05 16:16:41.546387
+146: User attempted: quit - at 2023-09-05 16:21:39.314953
+147: Successfully Quit Application - at 2023-09-05 16:21:43.052683
+148: Application Started - at 2023-09-05 16:22:59.122121
+149: User attempted: quit - at 2023-09-05 16:23:00.489722
+150: Successfully Quit Application - at 2023-09-05 16:23:01.283665
