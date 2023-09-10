@@ -51,7 +51,7 @@ class TicketRepository(BaseRepository[TicketModel]):
         values = (
             date,
             updated_record.priority,
-            updated_record.ticket_type,
+            updated_record.ticket_type.name,
             updated_record.title,
             updated_record.description,
             id

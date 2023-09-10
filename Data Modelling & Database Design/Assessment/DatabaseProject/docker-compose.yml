@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  db:
+    container_name: JoshDb
+    image: "mysql:latest"
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+        - 3306:3306
+        - 33060:33060
+    environment:
+      MYSQL_ROOT_PASSWORD: joshmpassword
+      MYSQL_DATABASE: JoshMortonDatabase
+      MYSQL_USER: JoshMorton
+      MYSQL_PASSWORD: joshmpassword
