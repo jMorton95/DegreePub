@@ -176,12 +176,16 @@ VALUES
 
 -- Deduct the Quantity of the Items we just OrderItems for.
 UPDATE DepotItem AS di
+-- Join our OrderItems with our DepotItems
 JOIN (
     SELECT
         oi.DepotItemID,
+        -- Calculate the total Quantity per Item.
         SUM(oi.Quantity) AS TotalQuantity
     FROM OrderItem oi
     GROUP BY oi.DepotItemID
+    -- Sum the aggregate of each Unique Item found in OrderItem records
 ) AS aggregatedOrderItems ON di.DepotItemId = aggregatedOrderItems.DepotItemID
+-- Subtract the aggregated quantities from the Depot stock.
 SET di.StockAmount = di.StockAmount - aggregatedOrderItems.TotalQuantity
 WHERE di.DepotItemId IS NOT NULL;
