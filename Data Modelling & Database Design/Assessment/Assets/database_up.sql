@@ -39,7 +39,8 @@ CREATE TABLE `DepotItem` (
   `DepotItemId` integer unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `StockAmount` integer DEFAULT 0,
   `ItemID` integer unsigned NOT NULL,
-  `DepotID` integer unsigned NOT NULL
+  `DepotID` integer unsigned NOT NULL,
+  FOREIGN KEY (`AddressID`) REFERENCES `Address` (`AddressID`) ON DELETE CASCADE;
 );
 
 CREATE TABLE `OrderItem` (
@@ -73,7 +74,9 @@ CREATE TABLE `Company` (
   `AccountNumber` varchar(12) NOT NULL UNIQUE,
   `CreditLimit` decimal(10, 2) DEFAULT NULL,
   `InvoiceAddress` integer unsigned,
-  `DeliveryAddress` integer unsigned
+  `DeliveryAddress` integer unsigned,
+  FOREIGN KEY (`InvoiceAddressID`) REFERENCES `Address` (`AddressID`) ON DELETE CASCADE,
+  FOREIGN KEY (`DeliveryAddressID`) REFERENCES `Address` (`AddressID`) ON DELETE CASCADE
 );
 
 CREATE TABLE `Customer` (
