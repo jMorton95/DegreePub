@@ -216,11 +216,10 @@ BEGIN
         IF is_admin THEN
             SET @grant_query = CONCAT('GRANT ALL PRIVILEGES ON *.* TO \'', user_name, '\'@\'localhost\';');
         ELSE
-            -- Here, grant limited permissions. Adjust as needed
-            SET @grant_query = CONCAT('GRANT SELECT ON your_database.* TO \'', user_name, '\'@\'localhost\';');
+            -- Here, grant limited permissions.
+            SET @grant_query = CONCAT('GRANT SELECT ON joshdb.* TO \'', user_name, '\'@\'localhost\';');
         END IF;
-        
-        -- Execute our built up query to actually assign the permissions.
+  
         PREPARE stmt FROM @grant_query;
         EXECUTE stmt;
         DEALLOCATE PREPARE stmt;
